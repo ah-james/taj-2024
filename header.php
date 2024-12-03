@@ -35,7 +35,7 @@
                         <a class="nav-link" href="/menu.php">Menu</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle d-flex align-items-center gap-1 p-2 fw-bold text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                        <a class="nav-link dropdown-toggle align-items-center p-2 fw-bold text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                         <ul class="dropdown-menu">
                             <li><a class="fw-bold dropdown-item" target="_blank" href="https://www.2dinein.com/r/554/restaurants/delivery/Indian/TAJ-Indian-Indo-Chinese-Cuis-South-Portland">2DineIn</a></li>
                             <li><a class="fw-bold dropdown-item" target="_blank" href="https://www.carhopme.com/r/1405/restaurants/delivery/Indian/Taj-Indian-Cuisine-South-Portland">CarHop</a></li>
