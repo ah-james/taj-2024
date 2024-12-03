@@ -50,8 +50,8 @@
                     </li>
                 </ul>
                 <ul class="social-list list-inline py-2 mx-5 justify-content-center">
-                    <li class="list-inline-item d-none d-lg-block"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li class="list-inline-item d-none d-lg-block"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item d-none d-lg-block"><a target="_blank" href="https://www.instagram.com/taj_maine/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item d-none d-lg-block"><a target="_blank" href="https://www.facebook.com/tajindianindochinesecuisine/"><i class="fab fa-facebook"></i></a></li>
                     <div class="ms-3 mt-2">
                         <a href="https://resy.com/cities/pwm/taj-indian-cuisine" id="resyButton-x-sn33RhJzxlfc_rRX9qM">Book your Taj Indian Cuisine reservation on Resy</a>
                     </div>
