@@ -1,0 +1,219 @@
+:root {
+    --primary-color: #2A3456;
+    --secondary-color: #FFF8E7;
+    --button-color: #DF5353;
+    --font-header: "Rakkas";
+    --font-body: "Kanit";
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+}
+
+body {
+    overflow-x: hidden
+}
+
+a.nav-link {
+    font-family: var(--font-body), sans-serif;
+}
+
+p {
+    font-family: var(--font-body), sans-serif;
+    color: var(--secondary-color);
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    color: var(--secondary-color);
+    font-family: var(--font-header), sans-serif;
+}
+
+.tiny-text {
+    font-size: 12px;
+}
+
+.theme-bg-dark {
+    background: #2A3456;
+}
+
+.header {
+    background-color: #FFF8E7;
+}
+
+.header .navbar {
+    padding: 0.5rem;
+}
+
+.header .navbar-dark .navbar-toggler {
+    border: none;
+    padding: .25rem .6rem
+}
+
+.header .navbar-dark .navbar-toggler:hover {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1
+}
+
+.header .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.header .nav-item {
+    font-weight: bold
+}
+
+.header .nav-item .nav-link {
+    color: var(--primary-color);
+}
+
+.header .nav-item .nav-link:hover {
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.navbar-nav .dropdown-menu {
+    border: none;
+    background-color: var(--secondary-color);
+}
+
+.dropdown-menu a.dropdown-item {
+    font-family: var(--font-body);
+    color: var(--primary-color);
+}
+
+.logo {
+    width: 78px;
+}
+
+div#navigation {
+    justify-content: space-between;
+}
+
+div#navigation>* {
+    margin-bottom: 0 !important;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+}
+
+.social-list a {
+    width: 24px;
+    height: 24px;
+    padding-top: 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    color: #2A3456;
+}
+
+i.fab {
+    font-size: 1.5rem;
+}
+
+.main-wrapper {
+    background: var(--primary-color);
+    padding-top: 95px;
+}
+
+.page-title {
+    top: 0;
+    z-index: 9999;
+    transition: all .2s;
+    background-image: url('assets/images/taj-header.jpg');
+    background-size: cover;
+    /* Ensures the image covers the entire header */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    height: 30rem;
+}
+
+.sticky {
+    padding: 1em 0;
+}
+
+.swiper.mySwiper {
+    background-color: var(--secondary-color);
+}
+
+.swiper-slide img {
+    height: 30rem;
+    object-fit: cover;
+}
+
+.page-title .heading {
+    font-size: 60px;
+    text-align: left;
+}
+
+footer.footer {
+    border-top: 2px solid var(--secondary-color)
+}
+
+.footer a {
+    color: var(--secondary-color);
+}
+
+.halal {
+    max-height: 6rem;
+    max-width: 100%;
+}
+
+.gradient {
+    background: linear-gradient(to bottom, #2A3456 25%, transparent 100%)
+}
+
+/* Menu Page */
+
+div.menu-download-button a {
+    background-color: var(--button-color);
+    color: var(--secondary-color);
+    font: var(--font-body);
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 450px) {
+
+    .footer-info p,
+    .footer-info a,
+    .footer-info h5 {
+        font-size: 13px
+    }
+
+    .footer-info h3 {
+        font-size: 16px;
+    }
+
+    .halal {
+        max-height: 5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .page-title .heading {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 990px) {
+    .main-wrapper {
+        padding-top: 55px;
+    }
+}
