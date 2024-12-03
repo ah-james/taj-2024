@@ -36,10 +36,10 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle align-items-center p-2 fw-bold text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                        <ul class="ps-4 ps-lg-0 dropdown-menu">
-                            <li><a class="fw-bold dropdown-item" target="_blank" href="https://www.2dinein.com/r/554/restaurants/delivery/Indian/TAJ-Indian-Indo-Chinese-Cuis-South-Portland">2DineIn</a></li>
-                            <li><a class="fw-bold dropdown-item" target="_blank" href="https://www.carhopme.com/r/1405/restaurants/delivery/Indian/Taj-Indian-Cuisine-South-Portland">CarHop</a></li>
-                            <li><a class="fw-bold dropdown-item" target="_blank" href="https://www.doordash.com/business/taj-indian-cuisine-423230/?utm_campaign=423230&utm_medium=website&utm_source=partner-link&utm_content=white-xl">DoorDash</a></li>
+                        <ul class="dropdown-menu">
+                            <li><a class="fw-bold dropdown-item text-center text-lg-start" target="_blank" href="https://www.2dinein.com/r/554/restaurants/delivery/Indian/TAJ-Indian-Indo-Chinese-Cuis-South-Portland">2DineIn</a></li>
+                            <li><a class="fw-bold dropdown-item text-center text-lg-start" target="_blank" href="https://www.carhopme.com/r/1405/restaurants/delivery/Indian/Taj-Indian-Cuisine-South-Portland">CarHop</a></li>
+                            <li><a class="fw-bold dropdown-item text-center text-lg-start" target="_blank" href="https://www.doordash.com/business/taj-indian-cuisine-423230/?utm_campaign=423230&utm_medium=website&utm_source=partner-link&utm_content=white-xl">DoorDash</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
