@@ -20,6 +20,10 @@ body {
     overflow-x: hidden
 }
 
+a {
+    color: var(--secondary-color);
+}
+
 a.nav-link {
     font-family: var(--font-body), sans-serif;
 }
@@ -37,6 +41,10 @@ body h5,
 body h6 {
     color: var(--secondary-color);
     font-family: var(--font-header), sans-serif;
+}
+
+li {
+    color: var(--secondary-color);
 }
 
 .tiny-text {
