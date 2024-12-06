@@ -189,6 +189,10 @@ div.menu-download-button a {
     text-decoration: none;
 }
 
+.about-text {
+    font-size: 20px;
+}
+
 @media (max-width: 450px) {
 
     .footer-info p,
@@ -215,5 +219,9 @@ div.menu-download-button a {
 @media (max-width: 990px) {
     .main-wrapper {
         padding-top: 55px;
+    }
+
+    .about-text {
+        font-size: 16px;
     }
 }
