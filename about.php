@@ -4,7 +4,7 @@ include 'header.php';
 
 <div class="main-wrapper">
     <div class="m-3 m-lg-5">
-        <h1 class="fs-1 px-0 px-lg-5  mb-0 mb-lg-4">Our Story</h1>
+        <h1 class="fs-1 px-0 px-lg-5 mb-0 mb-lg-4">Our Story</h1>
         <div class="row">
             <div class="col-lg d-none d-lg-block">
                 <div>

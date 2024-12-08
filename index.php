@@ -15,16 +15,16 @@ include 'header.php';
     <div class="swiper mySwiper py-4">
         <div class="swiper-wrapper pb-2">
             <div class="swiper-slide">
-                <img src="/assets/images/taj-drink.png" class="d-block w-100" alt="hand pouring a mixed drink at the bar">
+                <img src="/assets/images/taj-food.jpg" class="d-block w-100" alt="a collection of food you can order at Taj">
             </div>
             <div class="swiper-slide">
-                <img src="/assets/images/taj-floor.png" class="d-block w-100" alt="tile floor at the restaurant entrance">
+                <img src="/assets/images/taj-floor.jpg" class="d-block w-100" alt="tile floor at the restaurant entrance">
             </div>
             <div class="swiper-slide">
-                <img src="/assets/images/taj-food.png" class="d-block w-100" alt="a collection of food you can order at Taj">
+                <img src="/assets/images/taj-drink.jpg" class="d-block w-100" alt="hand pouring a mixed drink at the bar">
             </div>
             <div class="swiper-slide">
-                <img src="/assets/images/taj-mural.png" class="d-block w-100" alt="mural overlooking buffet area">
+                <img src="/assets/images/taj-mural.jpg" class="d-block w-100" alt="mural overlooking buffet area">
             </div>
         </div>
         <div class="swiper-pagination"></div>
