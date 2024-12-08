@@ -57,6 +57,7 @@ li {
 
 .header {
     background-color: #FFF8E7;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .header .navbar {
