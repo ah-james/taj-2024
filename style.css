@@ -227,10 +227,14 @@ div.menu-download-button a {
 
 @media (max-width: 990px) {
     .main-wrapper {
-        padding-top: 55px;
+        padding-top: 66px;
     }
 
     .about-text {
         font-size: 16px;
+    }
+
+    .logo {
+        width: 50px;
     }
 }
