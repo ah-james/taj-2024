@@ -142,10 +142,10 @@ i.fab {
     top: 0;
     z-index: 9999;
     transition: all .2s;
-    background-image: url('assets/images/taj-header.jpg');
+    background-image: url('assets/images/taj-header-2.jpg');
     background-size: cover;
     /* Ensures the image covers the entire header */
-    background-position: center;
+    background-position: 0 -100px;
     /* Centers the image */
     background-repeat: no-repeat;
     /* Prevents the image from repeating */
