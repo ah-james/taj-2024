@@ -20,7 +20,7 @@ body {
     overflow-x: hidden
 }
 
-a {
+.main-wrapper a {
     color: var(--secondary-color);
 }
 
