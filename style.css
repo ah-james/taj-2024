@@ -211,6 +211,10 @@ div.menu-download-button a {
     height: 600px;
 }
 
+.resy-button {
+    margin-top: 6px;
+}
+
 @media (max-width: 450px) {
 
     .footer-info p,
